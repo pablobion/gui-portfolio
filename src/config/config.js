@@ -4,7 +4,7 @@ const config = () => {
      //Sub nick.
      const subname = 'Assistência de Produção e Direção e Edição de Vídeo' 
      //Sua descrição
-     const descrição = `Tenho 22 anos, bacharel em Cinema e Audiovisual pela Universidade São Judas Tadeu - Campus Unimonte. Já integrei a equipe de curta-metragens, videoclipes, série de animação, programa de TV, entre outros. Atualmente trabalho como editor no programa de culinária Sabores apresentado por Chef Welington Almeida e exibido em alguns estados da região norte e nordeste pela Rede Bandeirantes. Considero-me uma pessoa criativa, proativa e dedicada. Estou sempre em busca de novas experiências e conhecimentos!`
+     const descrição = `Tenho 22 anos, bacharel em Cinema e Audiovisual pela Universidade São Judas Tadeu - Campus Unimonte. Trabalho como Editor de Vídeo e Assistente de Direção e Produção e já integrei a equipe de curta-metragens, videoclipes, série de animação, programa de TV, entre outros. Considero-me uma pessoa criativa, proativa e dedicada. Estou sempre em busca de novas experiências e conhecimentos!`
 
      const numerowpp = '5513981823482' //inserir o 55 codigo brasil. ex 5548991252555
      const mensagemwpp = `Olá Guilherme, te encontrei através do seu site, podemos conversar?` //Essa sera a mensagem que ira para o whatsapp
