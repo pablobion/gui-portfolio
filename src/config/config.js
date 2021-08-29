@@ -11,6 +11,11 @@ const config = () => {
 
      const projetos = [
           {
+               nome: `Kika Boom - Obrigada`, 
+               descrição: `Nesse projeto fiz a função de assistente de direção.`,
+               video: 'https://www.youtube.com/embed/CWvVootJ8us',
+          },
+          {
                nome: `Lia Clark - Sentadinha Macia`, 
                descrição: `Videoclipe da cantora drag queen Lia Clark. Fiz a pré-produção de mesa e a assistência de direção nesse projeto.`,
                video: 'https://www.youtube.com/embed/NNLC0ApF2A0',
