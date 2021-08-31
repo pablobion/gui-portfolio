@@ -12,7 +12,7 @@ const config = () => {
      const projetos = [
           {
                nome: `Kika Boom - Obrigada`, 
-               descrição: `Nesse projeto fiz a função de assistente de direção.`,
+               descrição: `Videoclipe da cantora drag queen Kika Boom. Nesse projeto fiz a assistência de direção.`,
                video: 'https://www.youtube.com/embed/CWvVootJ8us',
           },
           {
