@@ -12,7 +12,7 @@ const config = () => {
      const projetos = [
           {
                nome: `Market Insights - VIA (VIIA3)`, 
-               descrição: `<b>Edição de vídeo</b> do programa quinzenal Market Insights para o canal do Youtube da plataforma de investimentos TC.`,
+               descrição: `Edição de vídeo do programa quinzenal Market Insights para o canal do Youtube da plataforma de investimentos TC.`,
                video: 'https://www.youtube.com/embed/9T4iER_bQfQ',
           },
           {
