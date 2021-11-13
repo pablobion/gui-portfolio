@@ -11,6 +11,11 @@ const config = () => {
 
      const projetos = [
           {
+               nome: `Market Insights - VIA (VIIA3)`, 
+               descrição: `<b>Edição de vídeo</b> do programa quinzenal Market Insights para o canal do Youtube da plataforma de investimentos TC.`,
+               video: 'https://www.youtube.com/embed/9T4iER_bQfQ',
+          },
+          {
                nome: `Kika Boom - Obrigada`, 
                descrição: `Videoclipe da cantora drag queen Kika Boom. Nesse projeto fiz a assistência de direção.`,
                video: 'https://www.youtube.com/embed/CWvVootJ8us',
