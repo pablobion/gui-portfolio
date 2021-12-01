@@ -30,8 +30,8 @@ import { config } from './config/config'
 
 
 function App() {
-  const configs = config()
 
+  const configs = config();
   return (
     <div className="container">
       <GlobalStyle />
@@ -39,7 +39,7 @@ function App() {
 
         <DivTopSide>
           <DivTopLeft>
-            <InsideLogo><Profile name={configs.nome} description={configs.subname} /></InsideLogo>
+            <InsideLogo><Profile name={config.nome} description={config.subname} /></InsideLogo>
             <Logo alt='logo' src={logo}></Logo>
           </DivTopLeft>
           <DivTopMid>
@@ -56,8 +56,7 @@ function App() {
         </DivTopSide>
 
         <DivBottom>
-            <Portfolio projetos={configs.projetos} />
-            
+            <Portfolio />
         </DivBottom>
         <CreateBy><h6>Created by </h6><a href="https://www.linkedin.com/in/pablobion/">Pablo Bion</a></CreateBy>
       </DivApp>

@@ -5,9 +5,6 @@ import { changeside } from './scripts/changeside'
 import { changedirection } from './scripts/changedirection'
 
 import { Parallax } from 'react-scroll-parallax';
-import Tilt from 'react-parallax-tilt'
-
-
 
 import {
      DivPortifolioList,
@@ -24,18 +21,18 @@ import {
      DivDescriçaoProjeto,
      DescriçaoProjeto,
      DivProjetoRight,
-     Projeto
-
+     Projeto,
+     ButtonsCategory
 } from './styles';
 
-
+import { config } from '../../config/config'
 
 function Portifolio(props) {
 
-     const projetos = props.projetos
+     
      const [scale, setScale] = useState(1.15);
-
-
+     const {projetos, getContent} = config()
+     const [videosContent, setVideosContent] = useState([])
 
      // Get Width screen
      const size = useWindowSize();
@@ -65,22 +62,28 @@ function Portifolio(props) {
      useEffect(() => { //Roda 1x identificando o tamanho da tela
           if (size.width < 719) { // se for de celular 
                setScale(0.1)
-          } else { //se não for de celular;
           }
      }, []);
 
-
+     const handleChangeCategory = (category) => {
+          const content = getContent(category)
+          setVideosContent(content)
+     } 
 
      return (
           <DivPortifolioList>
                <DivPortifolioTop>
                     <DivPortifolioButton>
                          <PortifolioButton color={changecolorButtonHeader()}><TitlePortifolio>Portfólio</TitlePortifolio></PortifolioButton>
+                         <div id='buttons-category'>
+                              <ButtonsCategory onClick={() => handleChangeCategory('edicao')} color="#428e91">Edição</ButtonsCategory>
+                              <ButtonsCategory onClick={() => handleChangeCategory('assistenciaDeDirecao')} color='rgb(231, 90, 90)'>Assistência de direção</ButtonsCategory>
+                         </div>
                     </DivPortifolioButton>
                </DivPortifolioTop>
                <DivPortifolioBottom>
                     <PortifolioList>
-                         {projetos.map(elem =>
+                         {videosContent.map(elem =>
                               <>
                                    {size.width < 719 &&
                                         <DivProjeto>
