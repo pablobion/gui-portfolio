@@ -78,6 +78,7 @@ function Portifolio(props) {
                          <div id='buttons-category'>
                               <ButtonsCategory onClick={() => handleChangeCategory('edicao')} color="#428e91">Edição</ButtonsCategory>
                               <ButtonsCategory onClick={() => handleChangeCategory('assistenciaDeDirecao')} color='rgb(231, 90, 90)'>Assistência de direção</ButtonsCategory>
+                              <ButtonsCategory onClick={() => handleChangeCategory('outros')} color='rgb(160, 80, 201)'>Outros</ButtonsCategory>
                          </div>
                     </DivPortifolioButton>
                </DivPortifolioTop>
