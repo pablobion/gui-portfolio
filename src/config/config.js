@@ -13,6 +13,16 @@ const config = () => {
         const content = {
             edicao: [
                 {
+                    nome: `Vídeo Institucional: Como é trabalhar no TC?`,
+                    descrição: `Nesse vídeo institucional fui responsável pela montagem e edição.`,
+                    video: "https://www.youtube.com/embed/olOMCcPkm5Q",
+                },
+                {
+                    nome: `Vídeo de apresentação TC + Ifood: Fome de Sucesso`,
+                    descrição: `Nesse vídeo de apresentação para o curso Fome de Sucesso do TC em parceria com o Ifood fiz toda a concepção, edição e montagem.`,
+                    video: "https://www.youtube.com/embed/pdCqpAaCL10",
+                },
+                {
                     nome: `Market Insights - VIA (VIIA3)`,
                     descrição: `Edição de vídeo do programa quinzenal Market Insights para o canal do Youtube da plataforma de investimentos TC.`,
                     video: "https://www.youtube.com/embed/9T4iER_bQfQ",
