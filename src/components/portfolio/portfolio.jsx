@@ -4,8 +4,6 @@ import { changecolor, changecolorButtonHeader } from './scripts/changecolor'
 import { changeside } from './scripts/changeside'
 import { changedirection } from './scripts/changedirection'
 
-import { Parallax } from 'react-scroll-parallax';
-
 import {
      DivPortifolioList,
      DivPortifolioTop,
@@ -86,37 +84,24 @@ function Portifolio(props) {
                     <PortifolioList>
                          {videosContent.map(elem =>
                               <>
-                                   {size.width < 719 &&
-                                        <DivProjeto>
-                                             <DivProjetoLeft>
-                                                  <DivNomeProjeto>
-                                                       <NomeProjeto color={changecolor()}>{elem.nome}</NomeProjeto>
-                                                  </DivNomeProjeto>
-                                                  <DivDescriçaoProjeto>
-                                                       <DescriçaoProjeto>{elem.descrição}</DescriçaoProjeto>
-                                                  </DivDescriçaoProjeto>
-                                             </DivProjetoLeft>
-                                             <DivProjetoRight>
-                                                  <Projeto width="100%" height="340" src={elem.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" color={changecolor()} />
-                                             </DivProjetoRight>
-                                        </DivProjeto>
-                                   }{size.width >= 719 &&
-                                             <Parallax key={elem.nome} className="custom-class" x={[-12, -3]} tagOuter="figure">
-                                                  <DivProjeto direction={changedirection()} side={changeside()} >
-                                                       <DivProjetoLeft>
-                                                            <DivNomeProjeto>
-                                                                 <NomeProjeto color={changecolor()}>{elem.nome}</NomeProjeto>
-                                                            </DivNomeProjeto>
-                                                            <DivDescriçaoProjeto>
-                                                                 <DescriçaoProjeto>{elem.descrição}</DescriçaoProjeto>
-                                                            </DivDescriçaoProjeto>
-                                                       </DivProjetoLeft>
-                                                       <DivProjetoRight>
-                                                            <Projeto width="100%" height="340" src={elem.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" color={changecolor()} />
-                                                       </DivProjetoRight>
-                                                  </DivProjeto>
-                                             </Parallax>
-                                   }
+                                   <DivProjeto direction={changedirection()} side={changeside()} >
+                                        <DivProjetoLeft>
+                                             <DivNomeProjeto>
+                                             <a style={{textDecoration: 'none'}} href={`https://www.youtube.com/watch?v=${elem.id}`} target="_blank">
+                                                  <NomeProjeto color={changecolor()}>{elem.nome}</NomeProjeto>
+                                                  </a>
+                                             </DivNomeProjeto>
+                                             <DivDescriçaoProjeto>
+                                                  <DescriçaoProjeto>{elem.descrição}</DescriçaoProjeto>
+                                             </DivDescriçaoProjeto>
+                                        </DivProjetoLeft>
+                                        <DivProjetoRight>
+                                             {/* <a href={`https://www.youtube.com/watch?v=${elem.id}`} target="_blank">
+                                                  <img  src={`https://i.ytimg.com/vi/${elem.id}/hqdefault.jpg`}></img>
+                                             </a> */}
+                                             <Projeto width="100%" height="340" src={elem.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" color={changecolor()} />
+                                        </DivProjetoRight>
+                                   </DivProjeto>
                               </>
                          )}
                     </PortifolioList>
