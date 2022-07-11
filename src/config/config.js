@@ -21,6 +21,18 @@ const config = () => {
         const content = {
             edicao: [
                 {
+                    nome: `Quem é Jack Ma? Conheça a história do BILIONÁRIO Chinês fundador do ALIBABA`,
+                    descrição: ``,
+                    video: "https://www.youtube.com/embed/Pdqfo1TyuhI",
+                    id: "Pdqfo1TyuhI"
+                },
+                {
+                    nome: `Quem é Elon Musk? Fatos curiosos sobre o bilionário da Tesla e do Twitter`,
+                    descrição: ``,
+                    video: "https://www.youtube.com/embed/e7GgGXuV2h0",
+                    id: "e7GgGXuV2h0"
+                },
+                {
                     nome: `Vídeo Institucional: Como é trabalhar no TC?`,
                     descrição: `Nesse vídeo institucional fui responsável pela montagem e edição.`,
                     video: "https://www.youtube.com/embed/olOMCcPkm5Q",
@@ -31,12 +43,6 @@ const config = () => {
                     descrição: `Nesse vídeo de apresentação para o curso Fome de Sucesso do TC em parceria com o Ifood fiz toda a concepção, edição e montagem.`,
                     video: "https://www.youtube.com/embed/pdCqpAaCL10",
                     id: "pdCqpAaCL10"
-                },
-                {
-                    nome: `Market Insights - VIA (VIIA3)`,
-                    descrição: `Edição de vídeo do programa quinzenal Market Insights para o canal do Youtube da plataforma de investimentos TC.`,
-                    video: "https://www.youtube.com/embed/9T4iER_bQfQ",
-                    id: "9T4iER_bQfQ"
                 },
                 {
                     nome: `Nanometragem Deadline`,
@@ -77,6 +83,12 @@ const config = () => {
             ],
             assistenciaDeDirecao: [
                 {
+                    nome: `Kika Boom - TAQUEI`,
+                    descrição: ``,
+                    video: "https://www.youtube.com/embed/V396USoPGYY",
+                    id: "V396USoPGYY"
+                },
+                {
                     nome: `Kika Boom - Obrigada`,
                     descrição: `Videoclipe da cantora drag queen Kika Boom. Nesse projeto fiz a assistência de direção.`,
                     video: "https://www.youtube.com/embed/CWvVootJ8us",
@@ -114,6 +126,13 @@ const config = () => {
                 },
             ],
             producao: [
+                
+                {
+                    nome: `Kaya Conky - PODE DALE`,
+                    descrição: ``,
+                    video: `https://www.youtube.com/embed/QhRGV-ofTTo`,
+                    id: "QhRGV-ofTTo"
+                },
                 {
                     nome: `Nanometragem Deadline`,
                     descrição: `"Deadline" nasceu de um trabalho de faculdade onde tínhamos que criar um nanometragem de terror de 15 segundos. Fiz a direção, o roteiro e a edição. "Deadline" foi indicado ao festival internacional "15 Second Horror Film Challenge" onde ficou no Top 10 de diversas categorias.`,
