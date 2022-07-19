@@ -21,6 +21,12 @@ const config = () => {
         const content = {
             edicao: [
                 {
+                    nome: `Video Academy`,
+                    descrição: ``,
+                    video: "https://www.youtube.com/embed/gRH-wSC8Veo",
+                    id: "gRH-wSC8Veo"
+                },
+                {
                     nome: `Quem é Jack Ma? Conheça a história do BILIONÁRIO Chinês fundador do ALIBABA`,
                     descrição: ``,
                     video: "https://www.youtube.com/embed/Pdqfo1TyuhI",
@@ -126,7 +132,6 @@ const config = () => {
                 },
             ],
             producao: [
-                
                 {
                     nome: `Kaya Conky - PODE DALE`,
                     descrição: ``,
