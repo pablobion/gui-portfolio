@@ -133,6 +133,18 @@ const config = () => {
             ],
             producao: [
                 {
+                    nome: `doddi . insonia |Visualizer|`,
+                    descrição: ``,
+                    video: `https://www.youtube.com/embed/XAzcbBJjtsw`,
+                    id: "XAzcbBJjtsw"
+                },
+                {
+                    nome: `LaMona Divine feat. Luísa e os Alquimistas - Zueira (Videoclipe Oficial)`,
+                    descrição: ``,
+                    video: `https://www.youtube.com/embed/QeRMp99k5I4`,
+                    id: "QeRMp99k5I4"
+                },
+                {
                     nome: `Kaya Conky - PODE DALE`,
                     descrição: ``,
                     video: `https://www.youtube.com/embed/QhRGV-ofTTo`,
@@ -157,13 +169,7 @@ const config = () => {
                     video: "https://www.youtube.com/embed/AEBqD3xXVek",
                     id: "AEBqD3xXVek"
 
-                },
-                {
-                    nome: `Kaya Conky - Marmita ft. Pepita`,
-                    descrição: `Videoclipe da cantora drag queen Kaya Conky com Pepita. Exerci a função de assistente de direção de arte.`,
-                    video: "https://www.youtube.com/embed/9lQQvItnoqM",
-                    id: "9lQQvItnoqM"
-                },
+                }
             ],
         };
 
